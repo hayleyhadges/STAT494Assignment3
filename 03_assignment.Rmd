@@ -216,6 +216,8 @@ plot(lime_rf3) +
   
 2. Describe how you would use the interpretable machine learning tools we've learned (both local and global) in future machine learning projects? How does each of them help you?
 
+The global interpretable machine learning tools like DALEX are great for looking at the performance of the model as well as its residuals in order to see the distribution of the models residuals and find any unexpected values. I would definitely create variable importance plots as well in order to determine which variables made the greatest contribution to the model and then focus more on those variables. The local interpretable machine learning tools are used to understand the impact variables have on individual observations, so it's helpful to see how the impact variables have can change from observation to observation. 
+
 
 ## SQL
 
